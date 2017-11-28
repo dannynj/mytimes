@@ -8,13 +8,17 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  height: 75px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  width: 100%;
+  align-items: center;
 }
 
-/* nav span{
-  color: black;
+header a {
+  
 }
 
 #logo {
   color: MediumAquamarine;
 }
- */
