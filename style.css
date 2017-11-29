@@ -50,9 +50,7 @@ nav span {
 
 .container {
   display: flex;
-  font-family: Garamond, Bookman, serif;
-  font-size: 15px;
-  padding-top: 125px;
+  padding-top: 100px;
   z-index: 1;
 }
 
@@ -71,4 +69,22 @@ nav span {
 .story {
   border: 1px solid black;
   padding: 10px;
+  font-family: Georgia, serif;
+  color: black;
+}
+
+.story h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+}
+
+.story h2 {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.story p {
+  font-size: 17px;
 }
