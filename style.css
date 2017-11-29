@@ -43,3 +43,28 @@ nav span {
 .logo img {
   margin-right: 20px;
 }
+
+/* main */
+
+.container {
+  display: flex;
+  font-family: Garamond, Bookman, serif;
+  font-size: 15px;
+  padding-top: 125px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.story {
+  border: 1px solid black;
+}
