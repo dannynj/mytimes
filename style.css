@@ -13,6 +13,8 @@ header {
   position: fixed;
   width: 100%;
   align-items: center;
+  z-index: 5;
+  background-color: white;
   /* left-margin: 0; */
 }
 
@@ -51,6 +53,7 @@ nav span {
   font-family: Garamond, Bookman, serif;
   font-size: 15px;
   padding-top: 125px;
+  z-index: 1;
 }
 
 .column.large {
@@ -67,4 +70,5 @@ nav span {
 
 .story {
   border: 1px solid black;
+  padding: 10px;
 }
