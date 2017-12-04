@@ -77,7 +77,6 @@ nav span {
 .story {
   border: 1px solid black;
   padding: 10px;
-
   color: black;
   font-size: 17px;
 }
@@ -87,6 +86,13 @@ nav span {
   font-size: 30px;
   color: black;
 }
+
+/* FIX:
+
+image headlines not White
+Photo sizes
+
+*/
 
 /* CSS for image boxes */
 .images {
@@ -98,6 +104,9 @@ nav span {
   height: 300px;
 }
 
+.images h2 {
+  color: white;
+}
 .image-tuna h1 {
   background-image: url(img-tuna.png);
   font-size: 40px;
