@@ -73,11 +73,11 @@ nav span {
   width: 240px;
 }
 
-  /* CSS for lead story */
+  /* CSS for news stories */
 .story {
   border: 1px solid black;
   padding: 10px;
-  font-family: Georgia, serif;
+
   color: black;
   font-size: 17px;
 }
@@ -88,42 +88,31 @@ nav span {
   color: black;
 }
 
-.story {
-  font-size: 17px;
-  color: black;
+/* CSS for image boxes */
+.images {
+  display: flex;
+  color: white;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  font-weight: bold;
+  height: 300px;
 }
 
-/* CSS for image boxes */
 .image-tuna h1 {
-  display: flex;
   background-image: url(img-tuna.png);
   font-size: 40px;
-  font-weight: bold;
-  color: white
 }
 
 .image-fall h2{
-  display: flex;
   background-image: url(img-fall.png);
-  font-weight: bold;
-  font-size: 30px;
-  color: white
 }
 
 .image-hipster h2 {
-  display: flex;
   background-image: url(img-hipster.png);
-  font-size: 30px;
-  font-weight: bold;
-  color: white
 }
 
 .image-cat h2 {
-  display: flex;
   background-image: url(img-cat.png);
-  font-weight: bold;
-  font-size: 30px;
-  color: white
 }
 
   /* News Bites sidebar */
