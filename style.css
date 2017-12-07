@@ -1,4 +1,8 @@
+/* universal styles */
 
+body {
+  width: 100%;
+}
 
 
 /* Header */
@@ -78,17 +82,23 @@ nav span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   color: black;
   font-size: 17px;
-  align-items: center;
+  justify-content: center;
 }
 
 .story h2 {
   font-weight: bold;
   font-size: 30px;
   color: black;
+  margin: 0;
+}
+
+.story p {
+  margin: 16 17;
+
 }
 
 /* CSS for image boxes */
@@ -102,13 +112,23 @@ nav span {
   margin-top: 15px;
 }
 
+.images span {
+  justify-content: center;
+}
+
 .image-tuna {
   background-image: url(img-tuna.png);
+  width: 630px;
   font-size: 40px;
+}
+
+.image-tuna span {
+  margin-left: 20;
 }
 
 .image-fall {
   background-image: url(img-fall.png);
+  justify-content: center;
 }
 
 .image-hipster {
@@ -118,6 +138,25 @@ nav span {
 .image-cat {
   background-image: url(img-cat.png);
 }
+
+/* CSS for formatting 1st col sm stories */
+.col1-med-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.col1-sm-container {
+  display: flex;
+  flex-direction: column;
+  width 300px;
+}
+
+/* .burger-hipster {
+  display: flex;
+  flex-direction: column;
+} */
+
+
 
   /* News Bites sidebar */
 .news-bites {
